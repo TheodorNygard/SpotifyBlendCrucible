@@ -38,6 +38,6 @@ jobs:
         with:
           app-name: 'SpotifyBlendCrucible'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_33975D13EFC4435ABEF16A1AB11F6A43 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C63D51D834C649C5B581EDC36981EDEA }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
